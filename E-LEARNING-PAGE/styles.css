@@ -4,6 +4,7 @@
     box-sizing: border-box;
     
 }
+
 h1 {
     font-size: 60px;
     line-height: 72px;
@@ -26,13 +27,17 @@ p{
     font-family: 'Exo';
     font-weight: 700;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
    
 }
-.logo span{
-    background-color: #F77E53;
+.E-txt{
     font-size: 30px;
-   
-
+    background-color:#F77E53 ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .menu a{
@@ -42,6 +47,11 @@ p{
     width: 45px;
     height: 10px;
     font-family: 'Inter';
+}
+.menu a:hover{
+    border:2px solid #2378FF;
+    border-radius: 10px;
+    height: 20px;
 }
 .signin button{
     background-color: #E8F1FF;
@@ -72,6 +82,7 @@ p{
     flex-direction: column;
     justify-content: space-around;
 }
+
 .getstarted h1{
     font-size: 60px;
     line-height: 72px;
@@ -93,6 +104,11 @@ p{
     color: white;
     font-size: 18px;
     border: none;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: #F77E53;
+    border: 2px solid black;
 }
 .logo2{
     display: flex;
@@ -163,6 +179,9 @@ p{
     background-color:transparent;
     
 }
+.viewcourses:hover{
+    background-color: #2076FF;
+}
 .btn{
     padding-top: 100px;
 }
@@ -228,13 +247,9 @@ p{
     color: #2076FF;
     background-color: transparent;
 }
-.addtocart2{
-    width: 240px;
-    height: 40px;
-    border-radius: 8px;
-    /* border: 1px solid #2076FF; */
-    color:white;
-    background-color:#2076FF;
+.addtocart:hover{
+    background-color: #2076FF;
+    color: white;
 }
 .section4{
     position: absolute;
